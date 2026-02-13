@@ -74,11 +74,11 @@ export default function DemoPage() {
             transition={{ duration: 0.6 }}
           >
             <h1 className="text-4xl md:text-5xl font-extrabold text-heading">
-              See Aarambh{" "}
+              See AARAMMBH{" "}
               <span className="gradient-text">in Action</span>
             </h1>
             <p className="mt-4 text-lg text-body max-w-2xl mx-auto">
-              Watch how Aarambh transforms a question paper into a digital
+              Watch how AARAMMBH transforms a question paper into a digital
               assessment in under 2 minutes, or book a live demo with our team.
             </p>
           </motion.div>
@@ -184,7 +184,7 @@ export default function DemoPage() {
             </h2>
             <p className="text-body leading-relaxed mb-8">
               Get a 30-minute walkthrough tailored to your institution. Our team
-              will show you exactly how Aarambh fits into your existing workflow.
+              will show you exactly how AARAMMBH fits into your existing workflow.
             </p>
             <ul className="space-y-4">
               {[

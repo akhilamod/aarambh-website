@@ -180,7 +180,7 @@ export default function FeaturesPage() {
               <span className="gradient-text">Simple Experience</span>
             </h1>
             <p className="mt-4 text-lg text-body max-w-2xl mx-auto">
-              Every feature in Aarambh is designed to save time, reduce errors,
+              Every feature in AARAMMBH is designed to save time, reduce errors,
               and help educators focus on what matters — teaching.
             </p>
           </motion.div>
@@ -294,7 +294,7 @@ export default function FeaturesPage() {
               See These Features in Action
             </h2>
             <p className="mt-4 text-lg text-white/80 max-w-xl mx-auto">
-              Book a personalised demo and discover how Aarambh can transform
+              Book a personalised demo and discover how AARAMMBH can transform
               assessments at your institution.
             </p>
             <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
