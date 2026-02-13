@@ -157,14 +157,14 @@ export default function Home() {
         </div>
       </section>
 
-      {/* What is AARAMMBH — Platform Overview */}
+      {/* What is Aarambh — Platform Overview */}
       <SectionWrapper bg="gray">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-extrabold text-heading">
             One Platform, <span className="gradient-text">The Entire Assessment Lifecycle</span>
           </h2>
           <p className="mt-4 text-body max-w-3xl mx-auto">
-            AARAMMBH isn&apos;t just a digitisation tool — it&apos;s a complete assessment
+            Aarambh isn&apos;t just a digitisation tool — it&apos;s a complete assessment
             platform that connects teachers and students. From building your question
             bank to conducting exams to analysing results — everything happens here.
           </p>
@@ -217,7 +217,7 @@ export default function Home() {
             How It Works — <span className="gradient-text">From Bank to Results</span>
           </h2>
           <p className="mt-4 text-body max-w-2xl mx-auto">
-            The complete journey from building your question bank to getting student results. All on AARAMMBH.
+            The complete journey from building your question bank to getting student results. All on Aarambh.
           </p>
         </div>
 
@@ -292,7 +292,7 @@ export default function Home() {
             Two Portals, <span className="gradient-text">One Connected Platform</span>
           </h2>
           <p className="mt-4 text-body max-w-2xl mx-auto">
-            Teachers and students each get a purpose-built experience, seamlessly connected through AARAMMBH.
+            Teachers and students each get a purpose-built experience, seamlessly connected through Aarambh.
           </p>
         </div>
 
@@ -381,11 +381,11 @@ export default function Home() {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-extrabold text-heading">
             The Old Way vs.{" "}
-            <span className="gradient-text">The AARAMMBH Way</span>
+            <span className="gradient-text">The Aarambh Way</span>
           </h2>
           <p className="mt-4 text-body max-w-2xl mx-auto">
             Educators spend 60% of their time on test creation and grading.
-            AARAMMBH gives you that time back.
+            Aarambh gives you that time back.
           </p>
         </div>
 
@@ -401,7 +401,7 @@ export default function Home() {
               <div className="w-10 h-10 rounded-full bg-red-50 flex items-center justify-center">
                 <XCircle className="w-5 h-5 text-red-500" />
               </div>
-              <h3 className="text-xl font-bold text-heading">Without AARAMMBH</h3>
+              <h3 className="text-xl font-bold text-heading">Without Aarambh</h3>
             </div>
             <ul className="space-y-4">
               {[
@@ -431,7 +431,7 @@ export default function Home() {
               <div className="w-10 h-10 rounded-full bg-green-50 flex items-center justify-center">
                 <CheckCircle2 className="w-5 h-5 text-green-500" />
               </div>
-              <h3 className="text-xl font-bold text-heading">With AARAMMBH</h3>
+              <h3 className="text-xl font-bold text-heading">With Aarambh</h3>
             </div>
             <ul className="space-y-4">
               {[
@@ -670,11 +670,11 @@ export default function Home() {
               <br />
               Publish Tests. Get Results.
               <br />
-              <span className="text-white/80">All on AARAMMBH.</span>
+              <span className="text-white/80">All on Aarambh.</span>
             </h2>
             <p className="mt-6 text-lg text-white/80 max-w-2xl mx-auto">
               Join 500+ schools and coaching institutes already running their
-              assessments on AARAMMBH. Start free — no credit card required.
+              assessments on Aarambh. Start free — no credit card required.
             </p>
             <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
               <Button href="/contact" variant="secondary" size="lg">
