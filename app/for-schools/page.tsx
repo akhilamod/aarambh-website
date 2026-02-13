@@ -62,7 +62,7 @@ const schoolFeatures = [
 const testimonials = [
   {
     quote:
-      "AARAMMBH saved our teachers over 200 hours last term. Paper setting that used to take a full weekend now happens in 30 minutes.",
+      "Aarambh saved our teachers over 200 hours last term. Paper setting that used to take a full weekend now happens in 30 minutes.",
     name: "Dr. Meena Sharma",
     role: "Principal, Delhi Public School, Noida",
   },
@@ -74,7 +74,7 @@ const testimonials = [
   },
   {
     quote:
-      "As a CBSE school, blueprint compliance was always stressful. AARAMMBH checks it automatically. No more last-minute corrections.",
+      "As a CBSE school, blueprint compliance was always stressful. Aarambh checks it automatically. No more last-minute corrections.",
     name: "Anjali Krishnan",
     role: "HOD Science, Kendriya Vidyalaya",
   },
@@ -104,7 +104,7 @@ export default function ForSchoolsPage() {
                 </span>
               </h1>
               <p className="mt-6 text-lg text-body leading-relaxed">
-                From unit tests to board exam prep — AARAMMBH helps CBSE, ICSE,
+                From unit tests to board exam prep — Aarambh helps CBSE, ICSE,
                 and state board schools create better assessments, save teacher
                 time, and improve student outcomes with AI-powered tools.
               </p>
@@ -141,7 +141,7 @@ export default function ForSchoolsPage() {
 
       <SectionWrapper bg="gray">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-          <AnimatedCounter end={300} suffix="+" label="Schools Using AARAMMBH" index={0} />
+          <AnimatedCounter end={300} suffix="+" label="Schools Using Aarambh" index={0} />
           <AnimatedCounter end={15000} suffix="+" label="Teachers Onboarded" index={1} />
           <AnimatedCounter end={200} suffix="hrs" label="Saved per Term per School" index={2} />
           <AnimatedCounter end={98} suffix="%" label="Teacher Satisfaction" index={3} />
@@ -156,7 +156,7 @@ export default function ForSchoolsPage() {
           </h2>
           <p className="mt-4 text-body max-w-2xl mx-auto">
             We understand the unique needs of CBSE, ICSE, and state board
-            schools. AARAMMBH is designed around your workflow.
+            schools. Aarambh is designed around your workflow.
           </p>
         </div>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -176,7 +176,7 @@ export default function ForSchoolsPage() {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-extrabold text-heading">
             How Schools Use{" "}
-            <span className="gradient-text">AARAMMBH Daily</span>
+            <span className="gradient-text">Aarambh Daily</span>
           </h2>
         </div>
         <div className="grid md:grid-cols-3 gap-8">
@@ -272,7 +272,7 @@ export default function ForSchoolsPage() {
               Ready to Transform Exams at Your School?
             </h2>
             <p className="mt-4 text-lg text-white/80 max-w-xl mx-auto">
-              Join 300+ schools already using AARAMMBH. Start with a free pilot
+              Join 300+ schools already using Aarambh. Start with a free pilot
               for your school — no commitment required.
             </p>
             <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">

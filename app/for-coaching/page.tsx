@@ -108,7 +108,7 @@ export default function ForCoachingPage() {
               </h1>
               <p className="mt-6 text-lg text-body leading-relaxed">
                 Whether you run a JEE/NEET coaching centre or a local tuition
-                class — AARAMMBH automates test creation, tracks student
+                class — Aarambh automates test creation, tracks student
                 performance, and helps you produce results that attract more
                 enrollments.
               </p>
@@ -256,7 +256,7 @@ export default function ForCoachingPage() {
               Give Your Institute the Competitive Edge
             </h2>
             <p className="mt-4 text-lg text-white/80 max-w-xl mx-auto">
-              200+ coaching institutes trust AARAMMBH to automate tests, track
+              200+ coaching institutes trust Aarambh to automate tests, track
               results, and improve student outcomes. Start your free trial today.
             </p>
             <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">

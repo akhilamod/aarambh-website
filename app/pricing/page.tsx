@@ -59,9 +59,9 @@ const plans = [
 
 const faqItems = [
   {
-    question: "Can I try AARAMMBH before paying?",
+    question: "Can I try Aarambh before paying?",
     answer:
-      "Absolutely! Our Free plan lets you explore the platform with up to 100 questions and 5 tests per month. The Pro plan also comes with a 14-day free trial — no credit card required. You only pay when you are confident AARAMMBH works for you.",
+      "Absolutely! Our Free plan lets you explore the platform with up to 100 questions and 5 tests per month. The Pro plan also comes with a 14-day free trial — no credit card required. You only pay when you are confident Aarambh works for you.",
   },
   {
     question: "What payment methods do you accept?",
@@ -91,7 +91,7 @@ const faqItems = [
   {
     question: "Is there a per-student fee?",
     answer:
-      "No. AARAMMBH pricing is based on teacher accounts and features, not the number of students. Whether you have 50 or 5,000 students, the price stays the same. We want you to scale without worrying about costs.",
+      "No. Aarambh pricing is based on teacher accounts and features, not the number of students. Whether you have 50 or 5,000 students, the price stays the same. We want you to scale without worrying about costs.",
   },
 ];
 

@@ -52,7 +52,7 @@ export default function ContactPage() {
             </h1>
             <p className="mt-4 text-lg text-body max-w-2xl mx-auto">
               Have questions? Want a personalised demo? Our team is here to help
-              you get started with AARAMMBH.
+              you get started with Aarambh.
             </p>
           </motion.div>
         </div>
@@ -181,7 +181,7 @@ export default function ContactPage() {
                 10 minutes during business hours.
               </p>
               <a
-                href="https://wa.me/919876543210?text=Hi%20I%20am%20interested%20in%20AARAMMBH"
+                href="https://wa.me/919876543210?text=Hi%20I%20am%20interested%20in%20Aarambh"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-6 py-3 bg-white text-primary font-semibold rounded-full text-sm hover:shadow-lg transition-all"
