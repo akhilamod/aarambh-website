@@ -11,28 +11,27 @@ const plans = [
     price: "₹0",
     description: "Perfect for individual teachers exploring digital assessments",
     features: [
-      "Up to 100 questions in your bank",
-      "5 test papers per month",
-      "Basic question tagging",
-      "Student performance summary",
-      "Email support",
+      "Up to 200 questions in your bank",
+      "10 tests per month",
+      "Up to 50 students",
+      "Basic analytics",
       "1 teacher account",
+      "Email support",
     ],
     cta: "Start Free",
   },
   {
     name: "Pro",
-    price: "₹999",
+    price: "₹2,499",
     description: "Ideal for coaching institutes and school departments",
     features: [
-      "Unlimited questions",
-      "Unlimited test papers",
-      "AI paper extraction (OCR)",
-      "Advanced analytics & reports",
-      "Bloom's taxonomy tagging",
+      "Unlimited questions & tests",
+      "AI image extraction",
+      "Advanced analytics (student + question level)",
+      "All India Ranking (coming soon)",
       "Up to 10 teacher accounts",
-      "Priority email & chat support",
-      "Export to PDF & Word",
+      "Priority support",
+      "Export to PDF",
     ],
     highlighted: true,
     cta: "Start 14-Day Trial",
@@ -49,8 +48,6 @@ const plans = [
       "Custom branding & white-label",
       "API & LMS integrations",
       "Dedicated account manager",
-      "On-premise deployment option",
-      "SLA & uptime guarantee",
     ],
     cta: "Contact Sales",
     href: "/contact",
@@ -61,7 +58,7 @@ const faqItems = [
   {
     question: "Can I try Aarambh before paying?",
     answer:
-      "Absolutely! Our Free plan lets you explore the platform with up to 100 questions and 5 tests per month. The Pro plan also comes with a 14-day free trial — no credit card required. You only pay when you are confident Aarambh works for you.",
+      "Absolutely! Our Free plan lets you explore the platform with up to 200 questions and 10 tests per month — no credit card required. The Pro plan also comes with a 14-day free trial. You only pay when you are confident Aarambh works for you.",
   },
   {
     question: "What payment methods do you accept?",
@@ -74,14 +71,19 @@ const faqItems = [
       "Yes. You can upgrade instantly and the difference will be prorated. Downgrades take effect at the end of your current billing cycle. Your data is always preserved — you will never lose questions or test history.",
   },
   {
-    question: "Is there a discount for annual billing?",
+    question: "What does the Free plan include?",
     answer:
-      "Yes! Annual billing gives you 2 months free — that is ₹9,990 per year instead of ₹11,988 on the Pro plan. Institution plans also offer volume discounts based on the number of branches.",
+      "The Free plan gives you 200 questions in your bank, 10 tests per month, up to 50 students, basic analytics, 1 teacher account, and email support. It is a great way to get started with digital assessments at no cost.",
+  },
+  {
+    question: "What is the difference between basic and advanced analytics?",
+    answer:
+      "Basic analytics (Free plan) gives you test-level summaries — total attempts, average scores, and completion rates. Advanced analytics (Pro plan) adds student-level and question-level insights — performance by subject, difficulty level breakdowns, per-test performance tables, and a student engagement overview.",
   },
   {
     question: "What happens to my data if I cancel?",
     answer:
-      "Your data remains accessible for 90 days after cancellation. You can export all your questions, papers, and reports in standard formats (PDF, CSV, Word) during this period. We believe your data belongs to you.",
+      "Your data remains accessible for 90 days after cancellation. You can export all your questions, papers, and reports during this period. We believe your data belongs to you.",
   },
   {
     question: "Do you offer special pricing for government schools?",
@@ -91,7 +93,12 @@ const faqItems = [
   {
     question: "Is there a per-student fee?",
     answer:
-      "No. Aarambh pricing is based on teacher accounts and features, not the number of students. Whether you have 50 or 5,000 students, the price stays the same. We want you to scale without worrying about costs.",
+      "No. Aarambh pricing is based on teacher accounts and features, not the number of students. The Free plan supports up to 50 students, while Pro and Institution plans have no student limits. We want you to scale without worrying about costs.",
+  },
+  {
+    question: "What is 'All India Ranking' in the Pro plan?",
+    answer:
+      "All India Ranking is an upcoming feature that will let students compare their performance with peers across institutions nationwide. It is marked as 'coming soon' in the Pro plan — you will get it automatically when it launches, at no extra cost.",
   },
 ];
 
