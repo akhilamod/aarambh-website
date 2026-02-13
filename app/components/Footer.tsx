@@ -38,7 +38,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-12">
           <div className="lg:col-span-2">
             <span className="text-2xl font-extrabold gradient-text">
-              Aarambh
+              AARAMMBH
             </span>
             <p className="mt-4 text-gray-400 text-sm leading-relaxed max-w-sm">
               AI-powered assessment platform built for Indian schools, coaching
@@ -84,7 +84,7 @@ export default function Footer() {
 
         <div className="mt-16 pt-8 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-sm text-gray-500">
-            &copy; {new Date().getFullYear()} Aarambh. All rights reserved.
+            &copy; {new Date().getFullYear()} AARAMMBH. All rights reserved.
           </p>
           <p className="text-sm text-gray-500">
             Built with love by{" "}
