@@ -106,9 +106,9 @@ export default function Home() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="mt-8 text-lg md:text-xl text-body max-w-3xl mx-auto leading-relaxed"
           >
-            Build your question bank from scratch or digitise existing papers with AI.
-            Create custom tests in clicks. Publish them instantly — students take tests
-            on any device. Get real-time analytics. All in one place.
+            Build your question bank with 5 question types or upload images for AI extraction.
+            Create tests filtered by subject, topic, and difficulty. Publish them instantly — students
+            take tests on any device. Get analytics by subject, difficulty, and student. All in one place.
           </motion.p>
 
           <motion.div
@@ -174,37 +174,37 @@ export default function Home() {
           <FeatureCard
             icon={BookOpen}
             title="Smart Question Bank"
-            description="Start with our public bank of thousands of curated questions, or build your own private bank. Upload existing papers — AI extracts and tags every question with subject, chapter, difficulty, and Bloom's taxonomy."
+            description="Build your private bank or use the shared public bank. 5 question types — Single Choice, Multiple Choice, Integer, Image, and Passage-based. Every question tagged by subject, topic, subtopic, and difficulty level."
             index={0}
           />
           <FeatureCard
             icon={Brain}
-            title="AI Paper Digitisation"
-            description="Snap a photo or upload a PDF of any question paper — handwritten or typed. AI reads, extracts, and organises questions into your bank. Your content stays 100% private to your institution."
+            title="AI Image Extraction"
+            description="Upload a photo of any question paper. AI extracts each question, options, and the correct answer automatically. Questions are structured and ready to add to your bank in seconds."
             index={1}
           />
           <FeatureCard
             icon={ClipboardList}
-            title="Custom Test Builder"
-            description="Create tests from your question bank in clicks. Set chapter mix, difficulty distribution, marks allocation, and time limits. Auto-generate balanced papers or hand-pick specific questions."
+            title="Test Creation"
+            description="Select questions from your bank — filter by subject, topic, subtopic, and difficulty. Set duration, instructions, and difficulty level. Publish and share a link — students start immediately."
             index={2}
           />
           <FeatureCard
             icon={Share2}
             title="One-Click Publishing"
-            description="Publish tests instantly via a unique link or QR code. Share via WhatsApp, email, or your LMS. Set start times, deadlines, and attempt limits. Students can access from any device — phone, tablet, or laptop."
+            description="Publish tests and get a shareable link. Students can access from any device — phone, tablet, or laptop. Manage all tests from a dashboard with preview, export, and deactivate controls."
             index={3}
           />
           <FeatureCard
             icon={GraduationCap}
             title="Student Test Portal"
-            description="Students get a clean, distraction-free test interface on any device. Auto-save, timer, section navigation, and instant submission. No app download needed — works in any browser."
+            description="Students get a clean, browser-based test interface on any device. Timer, question navigation, auto-save, available tests list, recent results with scores, and a performance stats tab."
             index={4}
           />
           <FeatureCard
             icon={BarChart3}
-            title="Real-Time Analytics"
-            description="The moment a test ends, get detailed analytics — student-wise scores, chapter-wise performance, difficulty analysis, time-spent insights, and class leaderboards. Export reports as PDF."
+            title="Analytics Dashboard"
+            description="Test analytics with total attempts, avg score, and completion rate. Performance breakdowns by subject and difficulty. Student overview with engagement metrics. Time range filters (7/30/90 days)."
             index={5}
           />
         </div>
@@ -228,7 +228,7 @@ export default function Home() {
               step: "01",
               title: "Build Your Question Bank",
               description:
-                "Start with our public question bank or upload your own papers. AI digitises PDFs and images — extracting questions, answers, and marking schemes. Tag by chapter, difficulty, and type. Your private bank grows with every paper you add.",
+                "Start with the shared public bank or build your own private bank. Upload images of question papers — AI extracts questions, options, and correct answers. Create questions manually with LaTeX math support. Tag by subject, topic, subtopic, and difficulty.",
               color: "from-blue-500/10 to-blue-600/10",
             },
             {
@@ -236,7 +236,7 @@ export default function Home() {
               step: "02",
               title: "Create Custom Tests",
               description:
-                "Pick questions from your bank — filter by chapter, difficulty, marks, and type. Or let AI auto-generate a balanced paper matching your criteria. Set total marks, time limit, sections, and negative marking. Preview before publishing.",
+                "Pick questions from your bank — filter by subject, topic, subtopic, and difficulty level. Set test duration, instructions, and difficulty. Preview your test before publishing.",
               color: "from-purple-500/10 to-purple-600/10",
             },
             {
@@ -244,15 +244,15 @@ export default function Home() {
               step: "03",
               title: "Publish & Share with Students",
               description:
-                "Hit publish and get a unique test link + QR code. Share via WhatsApp, SMS, email, or embed in your website. Set schedule windows (e.g., 'available 9 AM–12 PM on Monday'). Students register with your institution's code and take the test on any device.",
+                "Hit publish and get a shareable test link. Share via WhatsApp, SMS, or email. Students register with your institution's invite link and take the test on any device — browser-based, no app download needed.",
               color: "from-green-500/10 to-green-600/10",
             },
             {
               icon: TrendingUp,
               step: "04",
-              title: "Get Instant Analytics",
+              title: "Get Detailed Analytics",
               description:
-                "Auto-grading happens the moment a student submits. See real-time leaderboards as students finish. Get chapter-wise analysis, difficulty breakdowns, and identify weak areas across the class. Download detailed reports for parents and management.",
+                "See test analytics — total attempts, average score, completion rate — with time range filters. Break down performance by subject and difficulty level. Track student engagement with a student overview dashboard.",
               color: "from-orange-500/10 to-orange-600/10",
             },
           ].map((item, index) => (
@@ -316,12 +316,12 @@ export default function Home() {
             <ul className="space-y-3">
               {[
                 "Manage question bank (public + private)",
-                "AI-powered paper digitisation",
-                "Drag-and-drop test builder",
-                "Publish tests with unique links / QR codes",
-                "Real-time monitoring during live tests",
-                "Detailed analytics and exportable reports",
-                "Role-based access (HOD, teacher, coordinator)",
+                "5 question types with LaTeX math support",
+                "AI image extraction — upload photo, get questions",
+                "Create tests with subject/topic/difficulty filters",
+                "Publish tests with shareable links",
+                "Analytics: test performance, subject & difficulty breakdown",
+                "Organisation branding, role-based access, invite links",
               ].map((item) => (
                 <li key={item} className="flex items-start gap-3">
                   <CheckCircle2 className="w-4 h-4 text-primary mt-0.5 flex-shrink-0" />
@@ -349,13 +349,13 @@ export default function Home() {
             </div>
             <ul className="space-y-3">
               {[
-                "Join institution with a simple code",
-                "View all assigned and upcoming tests",
+                "Register via institution invite link",
+                "View available tests with 'Start Test' button",
                 "Take tests on any device — phone, tablet, laptop",
-                "Clean, distraction-free test interface",
-                "Auto-save progress, timer, section navigation",
-                "Instant results and detailed solution review",
-                "Track personal performance over time",
+                "Clean, browser-based test interface (no app needed)",
+                "Timer, question navigation, auto-save progress",
+                "Recent test results with scores",
+                "Performance tab with personal stats",
               ].map((item) => (
                 <li key={item} className="flex items-start gap-3">
                   <CheckCircle2 className="w-4 h-4 text-green-500 mt-0.5 flex-shrink-0" />
@@ -374,6 +374,40 @@ export default function Home() {
             </span>
           </div>
         </div>
+      </SectionWrapper>
+
+      {/* All India Ranking — Coming Soon */}
+      <SectionWrapper>
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+          className="relative max-w-4xl mx-auto p-8 md:p-12 rounded-2xl border border-amber-200 bg-gradient-to-br from-amber-50/50 to-white shadow-xl shadow-amber-500/5"
+        >
+          <div className="absolute -top-4 left-6 inline-flex items-center gap-2 px-4 py-1 bg-amber-100 border border-amber-200 rounded-full">
+            <Zap className="w-4 h-4 text-amber-600" />
+            <span className="text-sm font-bold text-amber-700 uppercase tracking-wider">
+              Coming Soon
+            </span>
+          </div>
+          <div className="flex flex-col md:flex-row items-center gap-8 mt-2">
+            <div className="flex-shrink-0 w-20 h-20 rounded-2xl bg-gradient-to-br from-amber-100 to-amber-50 flex items-center justify-center">
+              <TrendingUp className="w-10 h-10 text-amber-600" />
+            </div>
+            <div>
+              <h3 className="text-2xl md:text-3xl font-extrabold text-heading mb-3">
+                All India Level Ranking
+              </h3>
+              <p className="text-body leading-relaxed">
+                Compare your students&apos; performance with peers across institutions nationwide.
+                Percentile rankings, city-level and national benchmarks — helping students
+                understand where they stand beyond their classroom. Available for Pro and
+                Institution plans.
+              </p>
+            </div>
+          </div>
+        </motion.div>
       </SectionWrapper>
 
       {/* Pain vs Solution */}
@@ -435,11 +469,11 @@ export default function Home() {
             </div>
             <ul className="space-y-4">
               {[
-                "Upload old papers → AI builds your question bank instantly",
-                "Organised, searchable bank with tags and difficulty levels",
+                "Upload images → AI extracts questions, options & answers",
+                "Searchable bank with subject, topic, subtopic & difficulty filters",
                 "Publish test link — students attempt on their own devices",
                 "Auto-grading the moment students submit",
-                "Real-time analytics with chapter-wise and student-wise insights",
+                "Analytics by subject, difficulty, and per-student performance",
                 "One link does it all — share via WhatsApp, SMS, or email",
               ].map((item) => (
                 <li key={item} className="flex items-start gap-3">
@@ -544,24 +578,24 @@ export default function Home() {
               price: "₹0",
               description: "For individual teachers getting started",
               features: [
-                "Up to 100 questions in private bank",
-                "5 tests per month",
+                "200 questions in your bank",
+                "10 tests per month",
                 "Up to 50 students",
                 "Basic analytics",
-                "Email support",
+                "1 teacher account",
               ],
             },
             {
               name: "Pro",
-              price: "₹999",
+              price: "₹2,499",
               description: "For coaching institutes and departments",
               features: [
-                "Unlimited private questions",
-                "Unlimited tests & students",
-                "AI paper digitisation",
-                "Advanced analytics & exports",
-                "Custom branding",
+                "Unlimited questions & tests",
+                "AI image extraction",
+                "Advanced analytics (student + question level)",
+                "Up to 10 teachers",
                 "Priority support",
+                "Export to PDF",
               ],
               highlighted: true,
             },
@@ -572,11 +606,11 @@ export default function Home() {
               description: "For schools and universities",
               features: [
                 "Everything in Pro",
+                "Unlimited teachers",
                 "Multi-branch support",
-                "Custom integrations & SSO",
+                "Custom branding & white-label",
+                "API & LMS integrations",
                 "Dedicated account manager",
-                "On-premise option",
-                "SLA guarantee",
               ],
             },
           ].map((plan, index) => (
