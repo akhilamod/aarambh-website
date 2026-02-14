@@ -11,6 +11,7 @@ const navLinks = [
   { label: "Pricing", href: "/pricing" },
   { label: "For Schools", href: "/for-schools" },
   { label: "For Coaching", href: "/for-coaching" },
+  { label: "For Students", href: "/for-students" },
   { label: "Demo", href: "/demo" },
   { label: "Contact", href: "/contact" },
 ];
