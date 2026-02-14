@@ -40,7 +40,7 @@ const plans = [
     price: "₹7,499",
     description: "For mid-size coaching institutes scaling up",
     features: [
-      "Up to 1,000 students",
+      "Up to 500 students",
       "Everything in Growth",
       "All India Ranking (coming soon)",
       "Up to 15 teacher accounts",
