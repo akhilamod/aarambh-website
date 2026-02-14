@@ -7,13 +7,13 @@ import FAQAccordion from "../components/FAQAccordion";
 
 const plans = [
   {
-    name: "Free",
+    name: "Starter",
     price: "₹0",
-    description: "Perfect for individual teachers exploring digital assessments",
+    description: "For individual tutors and teachers getting started",
     features: [
+      "Up to 50 students",
       "Up to 200 questions in your bank",
       "10 tests per month",
-      "Up to 50 students",
       "Basic analytics",
       "1 teacher account",
       "Email support",
@@ -21,27 +21,42 @@ const plans = [
     cta: "Start Free",
   },
   {
-    name: "Pro",
+    name: "Growth",
     price: "₹2,499",
-    description: "Ideal for coaching institutes and school departments",
+    description: "For small coaching centres and tuition classes",
     features: [
+      "Up to 200 students",
       "Unlimited questions & tests",
       "AI image extraction",
       "Advanced analytics (student + question level)",
-      "All India Ranking (coming soon)",
-      "Up to 10 teacher accounts",
+      "Up to 5 teacher accounts",
       "Priority support",
       "Export to PDF",
+    ],
+    cta: "Start 14-Day Trial",
+  },
+  {
+    name: "Pro",
+    price: "₹7,499",
+    description: "For mid-size coaching institutes scaling up",
+    features: [
+      "Up to 1,000 students",
+      "Everything in Growth",
+      "All India Ranking (coming soon)",
+      "Up to 15 teacher accounts",
+      "Batch management",
+      "Dedicated support channel",
     ],
     highlighted: true,
     cta: "Start 14-Day Trial",
   },
   {
-    name: "Institution",
+    name: "Enterprise",
     price: "Custom",
     period: "",
-    description: "For schools, universities, and large coaching chains",
+    description: "For large coaching chains, schools & universities",
     features: [
+      "Unlimited students",
       "Everything in Pro",
       "Unlimited teacher accounts",
       "Multi-branch support",
@@ -71,14 +86,14 @@ const faqItems = [
       "Yes. You can upgrade instantly and the difference will be prorated. Downgrades take effect at the end of your current billing cycle. Your data is always preserved — you will never lose questions or test history.",
   },
   {
-    question: "What does the Free plan include?",
+    question: "What does the Starter plan include?",
     answer:
-      "The Free plan gives you 200 questions in your bank, 10 tests per month, up to 50 students, basic analytics, 1 teacher account, and email support. It is a great way to get started with digital assessments at no cost.",
+      "The Starter plan gives you 200 questions in your bank, 10 tests per month, up to 50 students, basic analytics, 1 teacher account, and email support. It is a great way to get started with digital assessments at no cost.",
   },
   {
     question: "What is the difference between basic and advanced analytics?",
     answer:
-      "Basic analytics (Free plan) gives you test-level summaries — total attempts, average scores, and completion rates. Advanced analytics (Pro plan) adds student-level and question-level insights — performance by subject, difficulty level breakdowns, per-test performance tables, and a student engagement overview.",
+      "Basic analytics (Starter plan) gives you test-level summaries — total attempts, average scores, and completion rates. Advanced analytics (Growth and above) adds student-level and question-level insights — performance by subject, difficulty level breakdowns, per-test performance tables, and a student engagement overview.",
   },
   {
     question: "What happens to my data if I cancel?",
@@ -93,7 +108,7 @@ const faqItems = [
   {
     question: "Is there a per-student fee?",
     answer:
-      "No. Aarambh pricing is based on teacher accounts and features, not the number of students. The Free plan supports up to 50 students, while Pro and Institution plans have no student limits. We want you to scale without worrying about costs.",
+      "No. Aarambh uses student capacity bands — not per-student pricing. You pick a plan based on your institute size, and all students within that band are included. No surprise bills as you add students. The Enterprise plan has no student limit at all.",
   },
   {
     question: "What is 'All India Ranking' in the Pro plan?",
@@ -116,8 +131,8 @@ export default function PricingPage() {
               Simple, <span className="gradient-text">Transparent Pricing</span>
             </h1>
             <p className="mt-4 text-lg text-body max-w-2xl mx-auto">
-              Start free and upgrade as you grow. No hidden charges, no
-              per-student fees, no surprises.
+              Start free and upgrade as you grow. Student capacity bands —
+              not per-student fees. No hidden charges, no surprises.
             </p>
           </motion.div>
         </div>
@@ -125,7 +140,7 @@ export default function PricingPage() {
 
       <section className="py-16">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {plans.map((plan, index) => (
               <PricingCard key={plan.name} {...plan} index={index} />
             ))}
