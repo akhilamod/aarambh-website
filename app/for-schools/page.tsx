@@ -109,7 +109,7 @@ export default function ForSchoolsPage() {
                 time, and improve student outcomes with AI-powered tools.
               </p>
               <div className="mt-8 flex flex-col sm:flex-row gap-4">
-                <Button href="/contact" size="lg">
+                <Button href="https://aarambh-one.web.app/organization/register" size="lg">
                   Get Started Free <ArrowRight className="w-5 h-5 ml-2" />
                 </Button>
                 <Button href="/demo" variant="secondary" size="lg">
@@ -276,7 +276,7 @@ export default function ForSchoolsPage() {
               for your school — no commitment required.
             </p>
             <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
-              <Button href="/contact" variant="secondary" size="lg">
+              <Button href="https://aarambh-one.web.app/organization/register" variant="secondary" size="lg">
                 Start Free Pilot <ArrowRight className="w-5 h-5 ml-2" />
               </Button>
               <Button

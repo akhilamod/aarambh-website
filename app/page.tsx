@@ -117,7 +117,7 @@ export default function Home() {
             transition={{ duration: 0.8, delay: 0.3 }}
             className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4"
           >
-            <Button href="/contact" size="lg">
+            <Button href="https://aarambh-one.web.app/organization/register" size="lg">
               Start Free <ArrowRight className="w-5 h-5 ml-2" />
             </Button>
             <Button href="/demo" variant="secondary" size="lg">
@@ -711,7 +711,7 @@ export default function Home() {
               assessments on Aarambh. Start free — no credit card required.
             </p>
             <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
-              <Button href="/contact" variant="secondary" size="lg">
+              <Button href="https://aarambh-one.web.app/organization/register" variant="secondary" size="lg">
                 Start Free Today <ArrowRight className="w-5 h-5 ml-2" />
               </Button>
               <Button

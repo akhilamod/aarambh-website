@@ -472,7 +472,7 @@ export default function FeaturesPage() {
                 Book a Demo <ArrowRight className="w-5 h-5 ml-2" />
               </Button>
               <Button
-                href="/contact"
+                href="https://aarambh-one.web.app/organization/register"
                 variant="outline"
                 size="lg"
                 className="!border-white/30 !text-white hover:!bg-white/10"

@@ -24,7 +24,7 @@ export default function PricingCard({
   features,
   highlighted = false,
   cta = "Get Started",
-  href = "/contact",
+  href = "https://aarambh-one.web.app/organization/register",
   index = 0,
 }: PricingCardProps) {
   return (

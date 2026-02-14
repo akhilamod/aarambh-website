@@ -136,7 +136,7 @@ export default function ForStudentsPage() {
                 created by Aarambh&apos;s team and your own coaching or school.
               </p>
               <div className="mt-8 flex flex-col sm:flex-row gap-4">
-                <Button href="/contact" size="lg">
+                <Button href="https://aarambh-one.web.app/student-registration" size="lg">
                   Start Practicing Free <ArrowRight className="w-5 h-5 ml-2" />
                 </Button>
                 <Button href="/demo" variant="secondary" size="lg">
@@ -324,7 +324,7 @@ export default function ForStudentsPage() {
               No credit card needed — just sign up and start practicing.
             </p>
             <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
-              <Button href="/contact" variant="secondary" size="lg">
+              <Button href="https://aarambh-one.web.app/student-registration" variant="secondary" size="lg">
                 Start Practicing Free <ArrowRight className="w-5 h-5 ml-2" />
               </Button>
               <Button

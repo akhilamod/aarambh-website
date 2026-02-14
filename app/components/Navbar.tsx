@@ -66,7 +66,7 @@ export default function Navbar() {
             <Button href="/demo" variant="outline" size="sm">
               Book Demo
             </Button>
-            <Button href="/contact" size="sm">
+            <Button href="https://aarambh-one.web.app/organization/register" size="sm">
               Start Free
             </Button>
           </div>
@@ -105,7 +105,7 @@ export default function Navbar() {
                 <Button href="/demo" variant="outline" className="w-full">
                   Book Demo
                 </Button>
-                <Button href="/contact" className="w-full">
+                <Button href="https://aarambh-one.web.app/organization/register" className="w-full">
                   Start Free
                 </Button>
               </div>
