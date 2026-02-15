@@ -33,7 +33,6 @@ const plans = [
       "Up to 5 teacher accounts",
       "AI image extraction",
       "Priority support",
-      "Export to PDF",
     ],
     cta: "Start 14-Day Trial",
   },
