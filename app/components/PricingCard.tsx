@@ -8,6 +8,7 @@ type PricingCardProps = {
   name: string;
   price: string;
   period?: string;
+  subtitle?: string;
   description: string;
   features: string[];
   highlighted?: boolean;
@@ -20,6 +21,7 @@ export default function PricingCard({
   name,
   price,
   period = "/month",
+  subtitle,
   description,
   features,
   highlighted = false,
@@ -60,10 +62,15 @@ export default function PricingCard({
         >
           {price}
         </span>
-        {price !== "Custom" && (
+        {period && (
           <span className={`text-sm ${highlighted ? "text-white/70" : "text-body"}`}>
             {period}
           </span>
+        )}
+        {subtitle && (
+          <div className={`text-sm font-semibold mt-1 ${highlighted ? "text-white/80" : "text-primary"}`}>
+            {subtitle}
+          </div>
         )}
       </div>
       <ul className="space-y-3 mb-8">

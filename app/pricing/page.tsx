@@ -7,13 +7,14 @@ import FAQAccordion from "../components/FAQAccordion";
 
 const plans = [
   {
-    name: "Starter",
+    name: "Free",
     price: "₹0",
-    description: "For individual tutors and teachers getting started",
+    period: "",
+    description: "For individual tutors getting started",
     features: [
-      "Up to 50 students",
-      "Up to 200 questions in your bank",
-      "10 tests per month",
+      "Up to 30 students",
+      "Full question bank access (2,000+ PYQs)",
+      "Unlimited tests",
       "Basic analytics",
       "1 teacher account",
       "Email support",
@@ -22,23 +23,24 @@ const plans = [
   },
   {
     name: "Growth",
-    price: "₹2,499",
-    description: "For small coaching centres and tuition classes",
+    price: "₹2,999",
+    subtitle: "+ ₹50/student/month",
+    description: "For small coaching centres scaling up",
     features: [
       "Up to 200 students",
-      "Unlimited questions & tests",
-      "AI image extraction",
+      "Everything in Free",
       "Advanced analytics (student + question level)",
       "Up to 5 teacher accounts",
+      "AI image extraction",
       "Priority support",
-      "Export to PDF",
     ],
     cta: "Start 14-Day Trial",
   },
   {
     name: "Pro",
-    price: "₹7,499",
-    description: "For mid-size coaching institutes scaling up",
+    price: "₹2,999",
+    subtitle: "+ ₹40/student/month",
+    description: "For mid-size coaching institutes",
     features: [
       "Up to 500 students",
       "Everything in Growth",
@@ -52,8 +54,8 @@ const plans = [
   },
   {
     name: "Enterprise",
-    price: "Custom",
-    period: "",
+    price: "₹2,999",
+    subtitle: "+ ₹30/student/month",
     description: "For large coaching chains, schools & universities",
     features: [
       "Unlimited students",
@@ -73,7 +75,7 @@ const faqItems = [
   {
     question: "Can I try Aarambh before paying?",
     answer:
-      "Absolutely! Our Free plan lets you explore the platform with up to 200 questions and 10 tests per month — no credit card required. The Pro plan also comes with a 14-day free trial. You only pay when you are confident Aarambh works for you.",
+      "Absolutely! Our Free plan lets you explore the full platform with up to 30 students — no credit card required. Access the complete question bank, create unlimited tests, and see analytics in action. Paid plans also come with a 14-day free trial.",
   },
   {
     question: "What payment methods do you accept?",
@@ -86,9 +88,9 @@ const faqItems = [
       "Yes. You can upgrade instantly and the difference will be prorated. Downgrades take effect at the end of your current billing cycle. Your data is always preserved — you will never lose questions or test history.",
   },
   {
-    question: "What does the Starter plan include?",
+    question: "How does the per-student pricing work?",
     answer:
-      "The Starter plan gives you 200 questions in your bank, 10 tests per month, up to 50 students, basic analytics, 1 teacher account, and email support. It is a great way to get started with digital assessments at no cost.",
+      "Paid plans have a base platform fee of ₹2,999/month plus a per-student charge that decreases as you scale: ₹50/student on Growth, ₹40 on Pro, and ₹30 on Enterprise. For example, a coaching centre with 100 students on Growth pays ₹2,999 + (100 × ₹50) = ₹7,999/month. You only pay for active students.",
   },
   {
     question: "What is the difference between basic and advanced analytics?",
@@ -106,9 +108,9 @@ const faqItems = [
       "Yes, we offer subsidised pricing for government and aided schools. We are committed to making quality assessment tools accessible to every Indian institution. Contact us for a custom quote.",
   },
   {
-    question: "Is there a per-student fee?",
+    question: "Is the pricing fair for small institutes?",
     answer:
-      "No. Aarambh uses student capacity bands — not per-student pricing. You pick a plan based on your institute size, and all students within that band are included. No surprise bills as you add students. The Enterprise plan has no student limit at all.",
+      "Yes. The base + per-student model means you pay proportionally to your size. A 50-student tuition class on Growth pays ₹5,499/month, while a 200-student coaching centre pays ₹12,999. No one subsidises anyone else. And the Free plan with 30 students costs nothing at all.",
   },
   {
     question: "What is 'All India Ranking' in the Pro plan?",
@@ -131,8 +133,8 @@ export default function PricingPage() {
               Simple, <span className="gradient-text">Transparent Pricing</span>
             </h1>
             <p className="mt-4 text-lg text-body max-w-2xl mx-auto">
-              Start free and upgrade as you grow. Student capacity bands —
-              not per-student fees. No hidden charges, no surprises.
+              Start free with 30 students. Scale with a simple base +
+              per-student model — pay only for what you use.
             </p>
           </motion.div>
         </div>

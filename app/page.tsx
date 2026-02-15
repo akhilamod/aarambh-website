@@ -567,7 +567,7 @@ export default function Home() {
             Simple, <span className="gradient-text">Transparent Pricing</span>
           </h2>
           <p className="mt-4 text-body max-w-2xl mx-auto">
-            Start free. Scale as you grow. No hidden fees, no surprises.
+            Start free with 30 students. Pay as you grow — base fee + per-student pricing.
           </p>
         </div>
 
@@ -576,39 +576,39 @@ export default function Home() {
             {
               name: "Free",
               price: "₹0",
+              period: "",
               description: "For individual teachers getting started",
               features: [
-                "200 questions in your bank",
-                "10 tests per month",
-                "Up to 50 students",
+                "Up to 30 students",
+                "Full question bank (2,000+ PYQs)",
+                "Unlimited tests",
                 "Basic analytics",
                 "1 teacher account",
               ],
             },
             {
-              name: "Pro",
-              price: "₹2,499",
-              description: "For coaching institutes and departments",
+              name: "Growth",
+              price: "₹2,999",
+              description: "For coaching centres scaling up",
+              subtitle: "+ ₹50/student/month",
               features: [
-                "Unlimited questions & tests",
+                "Up to 200 students",
+                "Advanced analytics",
+                "Up to 5 teachers",
                 "AI image extraction",
-                "Advanced analytics (student + question level)",
-                "Up to 10 teachers",
                 "Priority support",
-                "Export to PDF",
               ],
               highlighted: true,
             },
             {
-              name: "Institution",
+              name: "Enterprise",
               price: "Custom",
               period: "",
-              description: "For schools and universities",
+              description: "For schools and large institutes",
               features: [
-                "Everything in Pro",
-                "Unlimited teachers",
-                "Multi-branch support",
+                "Unlimited students",
                 "Custom branding & white-label",
+                "Multi-branch support",
                 "API & LMS integrations",
                 "Dedicated account manager",
               ],
@@ -647,12 +647,17 @@ export default function Home() {
                 >
                   {plan.price}
                 </span>
-                {plan.price !== "Custom" && (
+                {plan.price !== "Custom" && plan.period !== "" && (
                   <span
                     className={`text-sm ${plan.highlighted ? "text-white/70" : "text-body"}`}
                   >
                     /month
                   </span>
+                )}
+                {"subtitle" in plan && plan.subtitle && (
+                  <div className={`text-sm font-semibold mt-1 ${plan.highlighted ? "text-white/80" : "text-primary"}`}>
+                    {plan.subtitle}
+                  </div>
                 )}
               </div>
               <ul className="space-y-3 mb-8">
