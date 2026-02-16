@@ -77,13 +77,13 @@ const featureSections = [
     badge: "AI Extraction",
     title: "Upload an Image. AI Does the Rest.",
     description:
-      "Upload a photo of any question paper and our AI reads, extracts, and organises every question — including options and the correct answer.",
+      "Upload a photo of a question and our AI reads, extracts, and structures it — including options and the correct answer.",
     features: [
       {
         icon: Camera,
         title: "Image-to-Question",
         description:
-          "Upload a photo of any question paper. AI extracts each question, options, and the correct answer automatically.",
+          "Upload a photo of a question. AI extracts the question text, options, and the correct answer automatically.",
       },
       {
         icon: Brain,

@@ -106,7 +106,7 @@ export default function Home() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="mt-8 text-lg md:text-xl text-body max-w-3xl mx-auto leading-relaxed"
           >
-            Build your question bank with 5 question types or upload images for AI extraction.
+            Build your question bank with 5 question types or upload a question image for AI extraction.
             Create tests filtered by subject, topic, and difficulty. Publish them instantly — students
             take tests on any device. Get analytics by subject, difficulty, and student. All in one place.
           </motion.p>
@@ -180,7 +180,7 @@ export default function Home() {
           <FeatureCard
             icon={Brain}
             title="AI Image Extraction"
-            description="Upload a photo of any question paper. AI extracts each question, options, and the correct answer automatically. Questions are structured and ready to add to your bank in seconds."
+            description="Upload a photo of a question. AI extracts the question text, options, and the correct answer automatically. Structured and ready to add to your bank in seconds."
             index={1}
           />
           <FeatureCard
@@ -228,7 +228,7 @@ export default function Home() {
               step: "01",
               title: "Build Your Question Bank",
               description:
-                "Start with the shared public bank or build your own private bank. Upload images of question papers — AI extracts questions, options, and correct answers. Create questions manually with LaTeX math support. Tag by subject, topic, subtopic, and difficulty.",
+                "Start with the shared public bank or build your own private bank. Upload an image of a question — AI extracts the question, options, and correct answer. Create questions manually with LaTeX math support. Tag by subject, topic, subtopic, and difficulty.",
               color: "from-blue-500/10 to-blue-600/10",
             },
             {
@@ -317,7 +317,7 @@ export default function Home() {
               {[
                 "Manage question bank (public + private)",
                 "5 question types with LaTeX math support",
-                "AI image extraction — upload photo, get questions",
+                "AI image extraction — upload a question photo, get it digitised",
                 "Create tests with subject/topic/difficulty filters",
                 "Publish tests with shareable links",
                 "Analytics: test performance, subject & difficulty breakdown",
@@ -469,7 +469,7 @@ export default function Home() {
             </div>
             <ul className="space-y-4">
               {[
-                "Upload images → AI extracts questions, options & answers",
+                "Upload question image → AI extracts text, options & answer",
                 "Searchable bank with subject, topic, subtopic & difficulty filters",
                 "Publish test link — students attempt on their own devices",
                 "Auto-grading the moment students submit",
