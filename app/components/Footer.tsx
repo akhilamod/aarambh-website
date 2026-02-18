@@ -87,8 +87,7 @@ export default function Footer() {
             &copy; {new Date().getFullYear()} Aarambh. All rights reserved.
           </p>
           <p className="text-sm text-gray-500">
-            Built with love by{" "}
-            <span className="text-gray-400 font-medium">RISA Labs</span>
+            Proudly Made in India 🇮🇳
           </p>
         </div>
       </div>

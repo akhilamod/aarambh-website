@@ -12,6 +12,7 @@ const navLinks = [
   { label: "For Schools", href: "/for-schools" },
   { label: "For Coaching", href: "/for-coaching" },
   { label: "For Students", href: "/for-students" },
+  { label: "About", href: "/about" },
   { label: "Demo", href: "/demo" },
   { label: "Contact", href: "/contact" },
 ];
