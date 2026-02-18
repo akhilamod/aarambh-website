@@ -188,7 +188,7 @@ export default function AboutPage() {
         </div>
       </SectionWrapper>
 
-      {/* ── Team / RISA Labs ── */}
+      {/* ── CTA ── */}
       <SectionWrapper className="py-16 md:py-20 bg-surface-secondary">
         <div className="max-w-3xl mx-auto text-center">
           <motion.div
@@ -196,31 +196,11 @@ export default function AboutPage() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
-            <div className="w-14 h-14 rounded-2xl bg-primary/10 flex items-center justify-center mx-auto mb-6">
-              <Globe className="w-7 h-7 text-primary" />
-            </div>
             <h2 className="text-3xl md:text-4xl font-bold text-heading mb-4">
-              Built by RISA Labs
+              Ready to Get Started?
             </h2>
-            <p className="text-lg text-body leading-relaxed mb-6">
-              Aarambh is built by{" "}
-              <a
-                href="https://risalabs.ai"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-primary font-medium hover:underline"
-              >
-                RISA Labs
-              </a>
-              , a research-driven technology company. We combine deep
-              engineering expertise with a genuine passion for improving
-              education in India.
-            </p>
-            <p className="text-body leading-relaxed mb-8">
-              Our team understands both sides — the technology that powers
-              modern assessment platforms and the real-world challenges
-              educators face daily. That dual perspective is what makes
-              Aarambh different.
+            <p className="text-lg text-body leading-relaxed mb-8">
+              Join educators across India who are transforming how they assess students.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <Button href="/contact" size="lg">
