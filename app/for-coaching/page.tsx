@@ -145,10 +145,10 @@ export default function ForCoachingPage() {
 
       <SectionWrapper bg="gray">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-          <AnimatedCounter end={200} suffix="+" label="Coaching Institutes" index={0} />
-          <AnimatedCounter end={50000} suffix="+" label="Students Tested" index={1} />
-          <AnimatedCounter end={1000000} suffix="+" label="Tests Generated" index={2} />
-          <AnimatedCounter end={30} suffix="min" label="Avg. Paper Creation Time" index={3} />
+          <AnimatedCounter end={2600} suffix="+" label="Verified Questions" index={0} />
+          <AnimatedCounter end={12} suffix="" label="Exam Types" index={1} />
+          <AnimatedCounter end={5} suffix="" label="Question Formats" index={2} />
+          <AnimatedCounter end={5} suffix="min" label="Avg. Paper Creation Time" index={3} />
         </div>
       </SectionWrapper>
 

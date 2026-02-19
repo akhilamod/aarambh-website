@@ -141,10 +141,10 @@ export default function ForSchoolsPage() {
 
       <SectionWrapper bg="gray">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-          <AnimatedCounter end={300} suffix="+" label="Schools Using Aarambh" index={0} />
-          <AnimatedCounter end={15000} suffix="+" label="Teachers Onboarded" index={1} />
-          <AnimatedCounter end={200} suffix="hrs" label="Saved per Term per School" index={2} />
-          <AnimatedCounter end={98} suffix="%" label="Teacher Satisfaction" index={3} />
+          <AnimatedCounter end={2600} suffix="+" label="Verified Questions" index={0} />
+          <AnimatedCounter end={12} suffix="" label="Exam Types" index={1} />
+          <AnimatedCounter end={5} suffix="" label="Question Formats" index={2} />
+          <AnimatedCounter end={10} suffix="x" label="Faster Test Creation" index={3} />
         </div>
       </SectionWrapper>
 

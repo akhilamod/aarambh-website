@@ -490,15 +490,15 @@ export default function Home() {
       <SectionWrapper bg="gray">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12">
           <AnimatedCounter
-            end={50000}
+            end={2600}
             suffix="+"
-            label="Questions in Bank"
+            label="Verified Questions"
             index={0}
           />
           <AnimatedCounter
-            end={500}
-            suffix="+"
-            label="Schools & Institutes"
+            end={12}
+            suffix=""
+            label="Exam Types Supported"
             index={1}
           />
           <AnimatedCounter
@@ -712,7 +712,7 @@ export default function Home() {
               <span className="text-white/80">All on Aarambh.</span>
             </h2>
             <p className="mt-6 text-lg text-white/80 max-w-2xl mx-auto">
-              Join 500+ schools and coaching institutes already running their
+              Join schools and coaching institutes already running their
               assessments on Aarambh. Start free — no credit card required.
             </p>
             <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">

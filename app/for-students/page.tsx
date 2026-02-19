@@ -169,7 +169,7 @@ export default function ForStudentsPage() {
       {/* Stats Bar */}
       <SectionWrapper bg="gray">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-          <AnimatedCounter end={100} suffix="+" label="Practice Questions" index={0} />
+          <AnimatedCounter end={2600} suffix="+" label="Practice Questions" index={0} />
           <AnimatedCounter end={12} suffix="+" label="Exam Types Supported" index={1} />
           <div className="text-center">
             <motion.div
