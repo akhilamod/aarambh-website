@@ -18,7 +18,7 @@ const footerLinks = {
     { label: "For Tutors", href: "/for-coaching" },
   ],
   Company: [
-    { label: "About Us", href: "/contact" },
+    { label: "About Us", href: "/about" },
     { label: "Contact", href: "/contact" },
     { label: "Blog", href: "#" },
     { label: "Careers", href: "#" },
