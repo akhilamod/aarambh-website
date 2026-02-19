@@ -4,7 +4,6 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import {
   Mail,
-  Phone,
   MapPin,
   MessageCircle,
   Send,
@@ -18,7 +17,6 @@ export default function ContactPage() {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
-    phone: "",
     institution: "",
     role: "",
     message: "",
@@ -98,19 +96,6 @@ export default function ContactPage() {
                     required
                     className="w-full px-4 py-3 rounded-xl border border-border bg-surface text-heading text-sm focus:outline-none focus:border-primary focus:ring-2 focus:ring-primary/10 transition-all"
                     placeholder="you@school.edu.in"
-                  />
-                </div>
-                <div>
-                  <label className="block text-sm font-medium text-heading mb-2">
-                    Phone Number
-                  </label>
-                  <input
-                    type="tel"
-                    name="phone"
-                    value={formData.phone}
-                    onChange={handleChange}
-                    className="w-full px-4 py-3 rounded-xl border border-border bg-surface text-heading text-sm focus:outline-none focus:border-primary focus:ring-2 focus:ring-primary/10 transition-all"
-                    placeholder="+91 98765 43210"
                   />
                 </div>
                 <div>
@@ -210,21 +195,12 @@ export default function ContactPage() {
               </div>
               <div className="flex items-start gap-4">
                 <div className="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center flex-shrink-0">
-                  <Phone className="w-5 h-5 text-primary" />
-                </div>
-                <div>
-                  <p className="font-medium text-heading text-sm">Phone</p>
-                  <p className="text-body text-sm">+91 98765 43210</p>
-                </div>
-              </div>
-              <div className="flex items-start gap-4">
-                <div className="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center flex-shrink-0">
                   <MapPin className="w-5 h-5 text-primary" />
                 </div>
                 <div>
                   <p className="font-medium text-heading text-sm">Office</p>
                   <p className="text-body text-sm">
-                    Pune, Maharashtra, India
+                    Bangalore, Karnataka, India
                   </p>
                 </div>
               </div>
