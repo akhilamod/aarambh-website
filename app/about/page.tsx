@@ -50,7 +50,7 @@ const values = [
 ];
 
 const milestones = [
-  { number: "2,600+", label: "Verified Questions", sublabel: "PYQs, NCERT, HC Verma, Irodov" },
+  { number: "2,600+", label: "Verified Questions", sublabel: "JEE & NEET PYQs, NCERT, HC Verma, Irodov" },
   { number: "12", label: "Exam Types", sublabel: "JEE, NEET, GATE, CAT & more" },
   { number: "5+", label: "Question Formats", sublabel: "MCQ, Multi-select, Integer, Passage, Image" },
   { number: "₹0", label: "To Get Started", sublabel: "Free tier with 30 students" },

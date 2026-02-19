@@ -13,7 +13,7 @@ const plans = [
     description: "For individual tutors getting started",
     features: [
       "Up to 30 students",
-      "Full question bank access (2,000+ PYQs)",
+      "Full question bank access (2,600+ verified questions)",
       "Unlimited tests",
       "Basic analytics",
       "1 teacher account",

@@ -580,7 +580,7 @@ export default function Home() {
               description: "For individual teachers getting started",
               features: [
                 "Up to 30 students",
-                "Full question bank (2,000+ PYQs)",
+                "Full question bank (2,600+ verified questions)",
                 "Unlimited tests",
                 "Basic analytics",
                 "1 teacher account",
