@@ -205,7 +205,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <p className="font-medium text-heading text-sm">Email</p>
-                  <p className="text-body text-sm">hello@aarambh.ai</p>
+                  <p className="text-body text-sm">contact@aarambh.one</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
